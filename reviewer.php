@@ -408,7 +408,7 @@
       <div class="row">
         <div class="col-12 col-md-12 col-lg-12">
         	<div class="footer-info">
-            	<p>© 2020 Scribe Review. All rights reserved.</p>
+            	<p>© 2023 Scribe Review. All rights reserved.</p>
             </div>
         </div>
       </div>
