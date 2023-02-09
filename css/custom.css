@@ -1,0 +1,229 @@
+*{ margin:0px; padding:0}* {box-sizing: border-box; -webkit-appearance: none;}
+body{font-family: 'Cormorant Garamond', serif; font-weight:600; }
+.page-wrpper {background-color: #ffffff; max-width: 1210px; margin: 0 auto; margin-bottom: 60px; width: 100%}
+*:focus,button:focus { outline: none;}
+.container { max-width:1130px; }
+a, a:hover {text-decoration: none}
+header{ padding:34px 0px 24px; display:block}
+
+header .logo strong{font-size: 30px;line-height: 44px;color: #182769; font-weight:700;text-transform:uppercase; display:block;}
+header .logo span{font-size:12px; font-weight:normal; line-height: 16px;letter-spacing: normal;color: #000000; display:block}
+header nav.stick{max-width: 100%; background-color:#ffffff;text-align: center; padding:0px;  position:fixed;  top: 0px; z-index:999; left: 0; right: 0;margin: 0 auto; box-shadow:0 5px 14px 0 rgba(0, 0, 0, 0.05);}
+header nav ul{margin:0px; padding:0px;}
+header nav ul li{ position:relative; padding:0px;  padding-right:88px;}
+header nav ul li a{ font-size: 16px;color:#182769;  font-weight:600;}
+header nav ul li a:hover{color:#182769;}
+header nav ul li.active a{font-weight:bold; position:relative}
+header nav ul li:last-child{ padding-right:0px;}
+header nav ul li.contact{ padding-right:10px;}
+header nav ul li.active.contact:before {
+    border-top: 2px solid #182769;
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 118%;
+    left: -19px;
+    top: -15px;
+}
+header nav ul li.active:before{border-top:2px solid #182769; position:absolute; content:''; height:2px; width:80%; left:0px; top:-15px;}
+header nav.stick .logo{padding-bottom:10px; text-align:left}
+.header-sec .share-icon {display: none}
+
+.rowbrder{    border-bottom: 1px solid #182769;
+    border-top: 4px solid #182769;}
+
+header.innrpg{ padding:19px 0px; border-bottom: solid 1px #979797;}
+header.innrpg .logotextr{ flot:left}
+header.innrpg .logotextr span{    font-size: 44px;     line-height: 1;    color: #1c1c1c;    font-family: 'Cormorant Garamond', serif;    font-weight: 600; text-transform: uppercase;} 
+.vol1details{ padding:60px 0px}
+
+header.innrpg  a{font-size: 20px;font-weight:700;line-height: 1.5;color: #333; border:1px solid #333; padding:5px 20px; display:inline-block}
+header.innrpg  a:hover{ background-color:#fafafa; border:1px solid #666; text-decoration:none}
+header .a{ float:right}
+
+.vol-sec {padding: 36px 0 15px}
+.vol-sec .head-text {border-bottom: 1px solid #182769; border-top: 1px solid #182769; padding: 16px 0}
+.vol-sec .head-text h2{font-size: 22px;font-weight: bold;line-height: normal;letter-spacing: normal;color: #182769; margin-bottom: 0; font-family: Heuristica;}
+.author-sec {padding: 20px 0 36px}
+.author-sec .author-info {position: relative;  padding: 21px 20px 9px; overflow:hidden}
+.author-sec .author-info:hover {background-color: #f9f0e0; padding: 21px 20px 9px; overflow:hidden}
+.author-sec .author-info{/*border: 1px solid red*/}
+.author-sec .author-info{}
+.author-sec .author-info hr {border-top: 1px solid #182769; margin: 0 0 20px}
+.author-sec .author-info h3 {font-size: 24px; font-weight: normal; line-height: 30px; color: #182769;  margin-bottom: 22px; position:relative; padding-top: 20px}
+.author-sec .author-info h3 a {font-size: 24px; font-weight: 700; line-height: 30px; color: #182769;  margin-bottom: 0; position:relative; padding: 0;
+display:block}
+.author-sec .author-info h3::before {content: ''; position: absolute; width: 39px; height: 2px; left: 0; top: 0; background-color: #182769;}
+.author-sec .author-info h5{font-size: 14px; font-weight: normal;line-height: normal;letter-spacing: normal;color: #182769; margin-bottom: 18px}
+.author-sec .author-info h5 span {color: #828282}
+.author-sec .author-info p{font-size: 18px; font-weight: 500; line-height: 24px;letter-spacing: normal; color: #000000; margin-bottom: 7px}
+.author-sec .author-info a{ font-size: 14px;font-weight: 600;line-height: normal;letter-spacing: normal; color: #182769; display: inline-block; padding-bottom: 9px; position:relative}
+.author-sec .author-info a{}
+.submission-sec {padding: 0px 0 20px}
+.submission-sec .bg-pink{background-color: #f9f0e0; }
+.submission-sec .sub-info {padding: 60px 0 33px}
+.submission-sec .sub-info h2 {font-size: 40px;font-weight: 600; line-height: 46px;letter-spacing: normal; color: #182769; margin-bottom: 22px}
+.submission-sec .sub-info p { font-size: 24px;font-weight: 500; line-height: 36px; letter-spacing: normal;text-align: center;color: #182769;
+ margin-bottom: 25px; padding:0px 35px}
+ .submission-sec .sub-info p a{ text-decoration:underline; color:#182769}
+.reviewer-sec .bordr-top{border-top: 3px solid #182769; padding-top:62px}
+.reviewer-sec .reviewer-head h3 { font-size: 22px;font-weight: bold;line-height: normal;letter-spacing: normal;color: #182769; margin-bottom: 9px}
+.reviewer-sec .reviewer-head p { font-size: 16px;font-weight: normal;line-height: normal;letter-spacing: normal;color: #182769;}
+.reviewer-sec .reviewer-info h3 {font-size: 22px;font-weight: normal;line-height: normal;letter-spacing: normal;color: #182769; position:relative;
+padding-bottom: 24px; margin-bottom: 18px}
+.reviewer-sec .reviewer-info h3::after {content: ''; position: absolute; width: 39px; height: 2px; left: 0; bottom: 0; background-color: #182769;}
+.reviewer-sec .reviewer-info p{font-size: 16px;font-weight: normal;line-height: 24px;letter-spacing: normal;color: #000000;}
+.reviewer-sec .reviewer-info a{  font-size: 14px;font-weight: normal;line-height: normal;letter-spacing: normal;color: #182769; display:block; 
+position:relative; padding-bottom: 9px; padding-top: 46px}
+.reviewer-sec .reviewer-info a::after {content: ''; position: absolute; width: 100%; height: 1px; left: 0; bottom: 0; background-color: #182769;}
+.footer-sec {padding: 30px 0 0}
+.footer-sec .footer-info {border-top: 1px solid #a6acc5; padding: 30px 0 22px}
+.footer-sec .footer-info p{ font-size: 14px;font-weight: 600;line-height: normal;letter-spacing: normal;color: #182769;}
+
+.header-sec {padding: 40px 0 ;}
+.header-sec .review-txt h2 {font-size: 30px; font-weight: 700; text-transform:uppercase; line-height: 44px;letter-spacing: normal; color: #182769; margin-bottom: 0}
+.cel-sec {padding: 14px 0 17px}
+.cel-sec .cel-text {border-top: 1px solid #182769; padding: 34px 0 17px}
+.cel-sec .cel-text h1{font-size: 36px; font-weight: normal; line-height: 50px;letter-spacing: normal; color: #182769; margin-bottom: 0}
+.autho-sec .author-detail {border-top: 2px solid #182769; border-bottom: 1px solid #182769; padding: 20px 0;}
+.autho-sec .author-detail h4{font-size: 14px; font-weight: 600; line-height: normal;letter-spacing: normal; color: #182769; margin-bottom: 0}
+.autho-sec .author-detail h4 span{color: #828282;}
+.text-sec {padding: 36px 0 0 0}
+.text-sec .text-details p{font-size: 17px; font-weight: 500; line-height: 26px;letter-spacing: normal; color: #000000; margin-bottom: 28px}
+.review-sec {}
+.review-sec .bordr-top{border-top: 3px solid #182769; padding-top:50px}
+.review-sec .reviewer-head h3 { font-size: 22px;font-weight: bold;line-height: normal;letter-spacing: normal;color: #182769; margin-bottom: 9px}
+.review-sec .reviewer-head p { font-size: 16px;font-weight: normal;line-height: normal;letter-spacing: normal;color: #182769;}
+.review-sec .reviewer-info h3 {font-size: 22px;font-weight: normal;line-height: normal;letter-spacing: normal;color: #182769; position:relative;
+ margin-bottom: 20px}
+.review-sec .reviewer-info p{font-size: 14px;font-weight: normal;line-height: 24px;letter-spacing: normal;color: #000000;}
+.review-sec .reviewer-info a{  font-size: 14px;font-weight: normal;line-height: normal;letter-spacing: normal;color: #182769; display:block; 
+position:relative; padding-bottom: 9px; padding-top: 46px}
+.review-sec .reviewer-info p a{  font-size: 14px;font-weight: normal;line-height: normal;letter-spacing: normal;color: #182769; display:inline; 
+position:relative; padding: 0}
+.review-sec .footer-sec { padding: 50px 0 100px;}
+.footer-sec .footer-info {border-top: 1px solid #a6acc5; padding: 30px 0 22px}
+.right-arr a{ color:#182769; font-weight:600; font-size:28px;}
+.issue-sec {padding: 18px 0 33px;}
+.issue-sec .issue-text {border-top: 1px solid #182769; border-bottom: 3px solid #182769; padding: 42px 0}
+.issue-sec .issue-text h2 {font-size: 28px; font-weight: bold; line-height: normal;letter-spacing: normal; color: #182769;margin-bottom: 0}
+.issue-detail-sec .issue-info {border-bottom: 1px solid #182769; padding-bottom: 20px;}
+.issue-detail-sec .issue-info h3{font-size: 26px;font-weight: 700; line-height: 33px;letter-spacing: normal; color: #182769; margin-bottom: 20px}
+.issue-detail-sec .issue-info p{font-size: 16px; font-weight: 500; line-height: 28px;letter-spacing: normal; color: #000000; margin-bottom: 0}
+.issue-detail-sec .footer-sec .footer-info {padding: 0 0 60px; border-top: 0;}
+.issue-detail-sec .footer-sec { padding: 56px 0 100px;}
+
+
+.guidline-sec {padding: 30px 0; }
+.guidline-sec .guid-bordr {border-bottom: 1px solid #182769; padding-bottom: 20px;}
+.guidline-sec .guidline-info h3 {font-size: 26px; font-weight: normal; line-height: 33px; letter-spacing: normal; color: #182769; margin-bottom: 0;}
+.guidline-sec .guidline-info ul {margin: 0; padding: 0}
+.guidline-sec .guidline-info ul li{list-style: none; font-size: 16px; font-weight: 500; line-height: 28px;letter-spacing: normal; color: #000000;
+padding-bottom: 34px; position: relative; padding-left: 30px}
+.guidline-sec .guidline-info ul li::before {position: absolute; content: ""; width: 18px; height: 14px; background-image:url(../images/tick.jpg); background-repeat:no-repeat; left: 0; background-position: center; background-size: cover; top: 6px;}
+.guidline-sec .footer-sec .footer-info {border-top: 0; padding: 0 0 60px;}
+.guidline-sec .footer-sec {padding: 56px 0 90px;}
+
+.contact-sec {padding: 18px 0 0px; }
+.contact-sec .contact-text {border-top: 1px solid #182769;  padding: 42px 0 290px;}
+.contact-sec .contact-text h2{font-size: 22px; font-weight: bold; line-height: normal;letter-spacing: normal; color: #182769; margin-bottom: 28px}
+.contact-sec .contact-text p{ font-size: 16px;font-weight: 500; line-height: 28px; letter-spacing: normal; color: #000000;}
+.contact-sec .contact-text p a {color: #182769; font-weight:bold}
+.contact-sec .footer-sec .footer-info {border-top: 0; padding: 0 0 60px;}
+.contact-sec .footer-sec {padding: 56px 0 90px;}
+
+
+.header-sec .socail-info { border-radius: 19px; background-color: #f9f0e0; padding: 6px 11px}	
+.header-sec .ckdSchoOutr {top: -7px; right: 0; width: 170px; position: absolute; overflow: hidden;}
+.header-sec .socail-info ul {margin: 0; padding: 0}
+.header-sec .socail-info ul li{list-style: none;width: 24px; height: 24px; text-align: center; border-radius: 50px; position:relative}
+.header-sec .socail-info ul li a {color: #fff}
+.header-sec .socail-info ul li a .fa {font-size: 12px}
+.header-sec .socail-info ul li.bg-4::after {content: ""; position: absolute; right:-10px; top:0; width: 1px; height: 100%; background-color: #d7cfc2}
+.header-sec .socail-info ul .bg-1{background-color: #37589b}
+.header-sec .socail-info ul .bg-2{background-color: #0076b8}
+.header-sec .socail-info ul .bg-3{background-color: #4aabf2}
+.header-sec .socail-info ul .bg-4{background-color: #6e4342}
+.header-sec .socail-info ul li.share{position: relative; display: flex; align-items: center; padding-left: 6px; left: 10px;}
+.navbar-nav{    margin-top: -10px;     padding-bottom: 20px;}
+.issue-detail-sec.riveTesxt{background-image: none;}
+.issue-sec.borRome .issue-text{border-top:0px;}
+@media (max-width:1280px){
+/*.page-wrpper {max-width: 91.5%;}
+header nav.stick {max-width: 91.5%;}*/
+}
+
+@media (max-width:1100px){
+header .navbar-expand-lg .navbar-nav .nav-link{ padding: 10px 26px;}
+}
+@media (max-width:992px){
+header{padding:0px}
+.navbar-toggle{ margin-right:15px; border-right:1px solid #6e6e6e; padding:25px 20px 25px 20px; position:relative; z-index:1}
+header .headTop {padding:0px;}
+header nav{ border-bottom:0px;}
+header .headTop .logo span {font-size:36px;}
+.vol-sec {padding: 0px 0 15px;}
+header .logo strong {font-size: 26px;line-height: 38px;}
+header .logo span {font-size: 11px; line-height: 11px;}
+.author-sec {padding: 15px 0 15px;}
+header nav.stick .logo {padding-bottom: 4px;}
+.contact-sec {padding: 0 0 15px;}
+header nav ul li.active::before {display: none}
+.issue-sec {padding: 0px 0 30px;}
+header.innrpg .logotextr span{ font-size:30px;}
+header.innrpg a {    font-size: 17px;}
+.vol1details{ padding-bottom:20px;}
+.contact {    padding: 20px 0px;}
+header nav ul li{padding-right:0px; text-align: left}
+.js-hiraku-offcanvas-body-left header nav.stick{max-width:100%; width:100%;}
+.logo strong{ display:block;padding-top: 12px;}
+}
+
+@media (max-width:767px){
+.contact-sec .contact-text {padding: 30px 0 250px;}	
+.author-sec .author-info h3 {font-size: 20px; line-height: 28px;}
+.vol-sec .head-text h2 {font-size: 20px;}
+.submission-sec .sub-info {padding: 30px 0 20px;}
+.submission-sec .sub-info h2 {font-size: 30px; line-height: 36px; margin-bottom: 12px;}
+.submission-sec .sub-info p {font-size: 20px; line-height: 30px; margin-bottom: 10px;}
+.submission-sec { padding: 15px 0 30px;}
+.reviewer-sec .bordr-top {padding-top: 30px;}
+.reviewer-sec, .contact-sec, .issue-detail-sec, .guidline-sec, .review-sec {background-size: 170%;}
+.reviewer-sec .reviewer-info h3 {font-size: 20px;padding-bottom: 12px; margin-bottom: 14px;}
+.footer-sec {padding: 30px 0 0;}
+.author-sec .author-info {padding: 12px 12px 0px;}
+.author-sec .author-info hr { margin: 0 0 12px;}
+.contact-sec .contact-text h2 { margin-bottom: 12px;}
+.contact-sec .contact-text p br {display: none}
+.issue-sec .issue-text {padding: 20px 0;}
+.guidline-sec .guidline-info h3 {font-size: 20px; line-height: 28px;}
+.author-sec .author-info h3 a {font-size: 20px; line-height: 28px;}
+.guidline-sec {padding: 15px 0;}
+.header-sec { padding: 15px 0;}
+.cel-sec .cel-text h1 {font-size: 20px; line-height: 28px;}
+.cel-sec .cel-text { padding: 20px 0 15px;}
+.cel-sec {padding: 14px 0 5px;}
+.header-sec .review-txt h2 {font-size: 22px; line-height: 30px;}
+.text-sec {padding: 30px 0 20px;}
+.text-sec .text-details p:last-child {margin-bottom: 0}
+.review-sec .bordr-top {padding-top: 30px;}
+.cel-sec .cel-text h1 br {display: none}
+}
+
+
+@media (max-width:576px){
+.review-sec .reviewer-head h3 {margin-bottom: 16px}	
+.cel-sec .cel-text h1 br {display: none}	
+.cel-sec .cel-text h1 {font-size: 20px; line-height: 28px;}
+.guidline-sec .guidline-info ul li {padding-bottom: 14px; padding-left: 26px;}
+.guidline-sec .guidline-info ul li::before {background-size: 15px;}
+.guidline-sec .guidline-info h3 {margin-bottom: 12px}
+.issue-detail-sec .issue-info h3 {font-size: 20px; line-height: 28px; margin-bottom: 10px;}	
+.submission-sec .sub-info p {font-size: 16px; line-height: 24px;}
+header .logo strong {font-size: 20px; line-height: 32px;}	
+.reviewer-sec .reviewer-info a {padding-top: 12px;}	
+header .headTop .logo span {  font-size: 30px;}
+header.innrpg {    padding: 13px 0px;    border-bottom: solid 1px #979797;}
+header nav{ border-bottom:1px solid #ccc}
+.cel-sec .cel-text h1 {font-weight: 700;}
+}

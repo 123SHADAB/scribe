@@ -1,0 +1,171 @@
+.navbar-toggle, .closeNav{ display:none}
+@media screen and (max-width:991px){
+header nav ul {list-style:none; display: block !important}
+header nav .fm-lg ul {display:block; text-align:left; padding-top:40px; }	
+header nav ul li a{ font-size: 14px; padding: 5px 12px;}
+header nav ul li.with-ul > a { padding-right:25px}
+.navbar-toggle{ display:inline-block; float:left;padding:10px 0px; background-color:transparent; border:0px; z-index: 99}
+header nav ul li{ width:100%; position:relative; display:block;border-bottom: 1px solid rgba(0, 0, 0, .1);border-top: 1px solid rgba(255, 255, 255, .1);padding:1px 5px;} 
+header nav ul li a{font-size:16px;color: #ffffff; display:block; font-weight:500;line-height: 2.19; }
+header nav ul li a::before, header nav ul li a.active::before{display: none;}
+.closeNav{ display:block;transition: .1s all;padding:15px; color:#ffffff!important;font-weight: normal;font-size:24px;}
+.closeNav.close{opacity: 1;}
+
+header .col-auto { -ms-flex: 0 0 100%;flex: 0 0 100%; width:100%; max-width: 100%;}
+
+.js-hiraku-offcanvas-active {
+	position: fixed;
+	z-index: 11;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: none;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .4);
+}
+
+.js-hiraku-offcanvas-open {
+	display: block;
+}
+
+.js-hiraku-offcanvas-body {
+	z-index: 0;
+	left: 0;
+	width: 100%;
+	transition: left .3s ease-in-out;
+}
+
+.js-hiraku-offcanvas-body-right {
+	position: fixed;
+	left: -70%;
+	overflow-y: hidden;
+}
+
+.js-hiraku-offcanvas-body-left {
+	position: fixed;
+	left:250px;
+	overflow-y: hidden;
+}
+
+.js-hiraku-offcanvas-body-moving {
+	position: fixed;
+	left: 0;
+}
+
+.js-hiraku-offcanvas-active .js-hiraku-offcanvas-sidebar {
+	position: fixed;
+	z-index:99999;
+	top: 0;
+	bottom: 0;
+	display: block;
+	overflow-y: scroll;
+	box-sizing: border-box;
+	width:250px;
+	max-width: 100%;
+	background-color:#fafafa;
+	
+
+}
+
+.js-hiraku-offcanvas:focus {
+	background-color: rgba(0, 0, 0, .3);
+}
+
+.js-hiraku-offcanvas-active .js-hiraku-offcanvas-sidebar-right {
+	right: 0;
+	left: auto;
+	margin-right: -70%;
+	transition: margin-right .3s ease-in-out;
+}
+
+.js-hiraku-offcanvas-active .js-hiraku-offcanvas-sidebar-left {
+	right: auto;
+	left: 0;
+	margin-left: -70%;
+	transition: margin-left .3s ease-in-out;
+}
+
+.js-hiraku-offcanvas-active .js-hiraku-offcanvas-sidebar-right.active {
+	margin-right: 0;
+	transition: margin-right .3s ease-in-out;
+}
+
+.js-hiraku-offcanvas-active .js-hiraku-offcanvas-sidebar-left.active {
+	margin-left: 0;
+	transition: margin-left .3s ease-in-out;
+}
+
+.js-hiraku-header-fixed {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transition: margin-left .3s ease-in-out;
+}
+
+.js-hiraku-offcanvas-body-right,
+.js-hiraku-offcanvas-body-left {
+	overflow: hidden;
+}
+
+.js-hiraku-offcanvas-body-right .js-hiraku-header-fixed {
+	margin-left: - 235px;
+}
+
+.js-hiraku-offcanvas-body-left .js-hiraku-header-fixed.stick {margin-left: 235px;
+}
+
+.js-hiraku-offcanvas-close-btn {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+}
+
+.hiraku-open-btn {
+	padding: 6px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background: transparent;
+}
+
+.hiraku-open-btn-line {
+	position: relative;
+	display: block;
+	width: 18px;
+	height: 2px;
+	margin: 6px 0;
+	transition: .1s all;
+	border-radius: 1px;
+	background-color:#585757;
+	z-index: 999
+}
+
+.hiraku-open-btn-line:before,
+.hiraku-open-btn-line:after {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 2px;
+	content: '';
+	transition: .3s all;
+	border-radius: 1px;
+	background-color: #585757;
+}
+
+
+
+.hiraku-open-btn-line:before {
+	top: -6px;
+}
+
+.hiraku-open-btn-line:after {
+	bottom: -6px;
+}
